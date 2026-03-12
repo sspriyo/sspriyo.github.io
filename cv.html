@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Priyo-ME | Curriculum Vitae</title>
-<link rel="stylesheet" href="assets/css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Priyo | CV</title>
+	<style>
+        body {
+           max-width: 800px;
+           margin: 40px auto;
+           padding: 20px;
+           font-family: Georgia, "Times New Roman", serif;
+           line-height: 1.2;
+        }
+   	</style>	
 </head>
+
 <body>
-
-<header>
-  <h1>Curriculum Vitae</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="research.html">Research & Learning</a>
-    <a href="cv.html">Curriculum Vitae</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
-
-<main>
-  <p>Education: BSc Mechanical Engineering, BUET</p>
-  <p>Experience: Personal projects, research documentation, Arduino & mechanical experiments.</p>
-</main>
-
+<!-- It's a simple navbar inside the table below -->
+	<hr><table>
+	<tr><td style="text-align:center;">
+	<button type="button" onclick="location.href='index.html'">Home</button>
+	<button type="button" onclick="location.href='about.html'">About Me</button>
+	<button type="button" onclick="location.href='projects.html'">My Projects</button>
+	<button type="button" onclick="location.href='research.html'">Research & Learning</button>
+	<button type="button" onclick="location.href='cv.html'">Curriculum Vitae</button>
+	<button type="button" onclick="location.href='contact.html'">Contact</button>
+	</tr></td>
+	</table><hr>
+<!-- Content goes here -->
+	<p>You can access my CV here: <button type="button" onclick="location.href='CV_of_SSP.pdf'">Curriculum Vitae</button></p>
+    <iframe src="CV_of_SSP.pdf" width="100%" height="400px" style="border: none;"></iframe>
+  </div>
+</div>
 <footer>
-  <p>© 2026 Symoum Syfullah Priyo</p>
+    <hr><p>© 2026 Symoum Syfullah Priyo</p><hr>
 </footer>
 
 </body>
